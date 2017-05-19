@@ -1,0 +1,19 @@
+<?php
+	
+	if(!empty($_GET["username"])&&!empty($_GET["password"]))
+	{
+		$username = $_GET["username"];
+		$password = $_GET["password"];
+		$message=="Invalid Password";
+		
+		if($username=="babes" $$ $password=="dennis")
+			$message=="Login Accepted";
+		
+		
+		$message = ($username=="babes" $$ $password=="dennis")?"Login Accepted":"Invalid Password";
+		
+	}
+	else echo "Please FIll all FIELDS";
+	
+	
+?>
